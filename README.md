@@ -21,20 +21,24 @@ Residents can LogIn to their account to check available parking space, pay their
 
 ## Functionalities
 1. Combine user-login and admin-login together, direct to different console page depending on login account;
-<p><img src="picture/adminDashboard.png"></p>
-<p><img src="picture/residentDash.png"></p>
+
+    adminDashboard:
+    <p><img src="picture/adminDashboard.png"></p>
+    residentDashboard:
+    <p><img src="picture/residentDash.png"></p>
 2. Must login as admin can Add/Remove/Modify the residents or rooms. Once a resident is created, admin can send a verify email by clicking “verify” button. After resident click the link on email, a user account & password will be created, then resident is able to login as user.
-<p><img src="picture/verify.png"></p>
+    <p><img src="picture/verify.png"></p>
 3. Resident can edit their profile: change account password, upload photo...
-<p><img src="picture/residentFile.png"></p>
+    <p><img src="picture/residentFile.png"></p>
 4. Visitors Management Flow:
     - Admin side:  visitor logIn with their information and roomNumber they want to visit, and waiting for the resident confirm. At the same time, notification was sent to the resident who he want to visit(by room id);
-    <p><img src="picture/visitorLogin.png"></p>
+        <p><img src="picture/visitorLogin.png"></p>
     - Resident received the notification that this visitor wants to visit you, yes or no?
     - When the resident allowed(which means he clicked yes), visitor’s information are saved in the database, he can go to his visitorList to check this visitor’s information. At the same time in the admin side, can check the visitors information and with the status “active”;
     - When visitor left, he can click the logout button, then this visitor was removed from this resident’s visitor;at the same time, the admin side can see the status of visitor, and if he loggedOut, then can check the “last_time” of this visit;
-    <p><img src="picture/visitorList.png"></p>
+         <p><img src="picture/visitorList.png"></p>
     - Also admin can search visitors by name/email/phone when click “search” button.
+    
 5. Send Email to resident: 
     - Admin can send email to multiple residents at the same time form admin email account.
     <p><img src="picture/sendEmail.png"></p>
