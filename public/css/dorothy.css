@@ -1,0 +1,17 @@
+.welcomeHeader{
+    /*background-image:url("/public/images/signin-image.jpg") ;*/
+    background-color: #e9ecef;
+    text-align: center;
+    height: 10%;
+}
+
+#visitorImg{
+    margin-top: 40px;
+
+}
+.visitorLogIn{
+    margin-top: 40px;
+}
+#visitorLogIn{
+    margin-left: 45%;
+}
